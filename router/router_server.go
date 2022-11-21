@@ -256,7 +256,6 @@ func postServerDenyWSTokens(c *gin.Context) {
 	c.Status(http.StatusNoContent)
 }
 
-
 // Reinstalls a server.
 func postServerImport(c *gin.Context) {
 	s := ExtractServer(c)
