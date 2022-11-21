@@ -19,6 +19,8 @@ const (
 	TransferLogsEvent           = "transfer logs"
 	TransferStatusEvent         = "transfer status"
 	DeletedEvent                = "deleted"
+	ImportStartedEvent          = "import started"
+	ImportCompletedEvent        = "import completed"
 )
 
 // Events returns the server's emitter instance.
